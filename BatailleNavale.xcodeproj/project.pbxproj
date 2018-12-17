@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CAB934C21C80E2E000908DD /* ProtocolGestionBatailleNavale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB934B21C80E2E000908DD /* ProtocolGestionBatailleNavale.swift */; };
+		5CAB934E21C81638000908DD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB934D21C81638000908DD /* Player.swift */; };
+		5CAB935021C8165B000908DD /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB934F21C8165B000908DD /* GameBoard.swift */; };
+		5CAB935221C81774000908DD /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB935121C81774000908DD /* Orientation.swift */; };
 		5CC0F0C221C1740400034EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0F0C121C1740400034EB0 /* AppDelegate.swift */; };
 		5CC0F0C421C1740400034EB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0F0C321C1740400034EB0 /* ViewController.swift */; };
 		5CC0F0C721C1740400034EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0F0C521C1740400034EB0 /* Main.storyboard */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CAB934B21C80E2E000908DD /* ProtocolGestionBatailleNavale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolGestionBatailleNavale.swift; sourceTree = "<group>"; };
+		5CAB934D21C81638000908DD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5CAB934F21C8165B000908DD /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		5CAB935121C81774000908DD /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
 		5CC0F0BE21C1740400034EB0 /* BatailleNavale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatailleNavale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC0F0C121C1740400034EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CC0F0C321C1740400034EB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CAB934A21C80E14000908DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAB934B21C80E2E000908DD /* ProtocolGestionBatailleNavale.swift */,
+				5CAB934D21C81638000908DD /* Player.swift */,
+				5CAB934F21C8165B000908DD /* GameBoard.swift */,
+				5CAB935121C81774000908DD /* Orientation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5CC0F0B521C1740400034EB0 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +124,7 @@
 		5CC0F0C021C1740400034EB0 /* BatailleNavale */ = {
 			isa = PBXGroup;
 			children = (
-				BC61BD0E21C2D7BC007ED22F /* Model */,
+				5CAB934A21C80E14000908DD /* Model */,
 				BC61BD0421C2CC47007ED22F /* UI */,
 				5CC0F0C121C1740400034EB0 /* AppDelegate.swift */,
 				5CC0F0CB21C1740600034EB0 /* Assets.xcassets */,
@@ -160,13 +179,6 @@
 				BC61BD0B21C2D4EB007ED22F /* SettingViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		BC61BD0E21C2D7BC007ED22F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC61BD0821C2CFEE007ED22F /* PlayViewController.swift in Sources */,
+				5CAB935021C8165B000908DD /* GameBoard.swift in Sources */,
 				5CC0F0C421C1740400034EB0 /* ViewController.swift in Sources */,
 				BC61BD0A21C2D243007ED22F /* ScoreViewController.swift in Sources */,
 				5CC0F0CA21C1740400034EB0 /* BatailleNavale.xcdatamodeld in Sources */,
+				5CAB934E21C81638000908DD /* Player.swift in Sources */,
+				5CAB935221C81774000908DD /* Orientation.swift in Sources */,
 				5CC0F0C221C1740400034EB0 /* AppDelegate.swift in Sources */,
+				5CAB934C21C80E2E000908DD /* ProtocolGestionBatailleNavale.swift in Sources */,
 				BC61BD0C21C2D4EB007ED22F /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
